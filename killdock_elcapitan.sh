@@ -1,3 +1,4 @@
 #!/bin/sh
-#removes dock from your life
+#hides dock
 defaults write com.apple.dock autohide-time-modifier -int 2330;killall Dock
+
